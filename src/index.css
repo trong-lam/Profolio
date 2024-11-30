@@ -1,0 +1,140 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+@layer base {
+  h1 {
+    @apply text-2xl;
+  }
+  h2 {
+    @apply text-xl;
+  }
+  /* ... */
+}
+*, *::before, *::after {box-sizing: inherit;}
+
+* {
+  padding: 0;
+  margin: 0;
+  line-height: 1.5em;
+}
+
+
+html {
+  box-sizing: border-box;
+}
+
+:root {
+  --font-body-family: "Poppins", sans-serif;
+  --font-body-style: normal;
+  --font-body-weight: 400;
+  --font-body-weight-bold: 700;
+
+  --font-heading-family: "Poppins", sans-serif;
+  --font-heading-style: normal;
+  --font-heading-weight: 600;
+
+  --font-size-navbar: 17px;
+
+  --font-body-scale: 1.0;
+  --font-heading-scale: 1.0;
+
+  --color-foreground: 38,11,1;
+  --color-background: 250,245,236;
+
+  --header-height: 81px;
+  --web-primary-color: 252,103,32;
+  --gradient-background: #faf5ec;
+
+  --color-button: 38,11,1;
+  --color-button-text: 255,255,255;
+  --alpha-button-background: 1;
+  
+  --buttons-border-width: 1px;
+  --buttons-radius-outset: 8px;
+
+
+}
+
+body{
+    margin: 0;
+    height: 100%;
+    font-family: var(--font-body-family);
+    font-size: 16px
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  50% {opacity: 0.5;}
+  100% {opacity: 1;}
+}
+
+@keyframes slideIntoPosition {
+  from {
+    transform: translateY(-200%) translateX(0); /* Start off-screen above */
+  }
+  to {
+    transform: translateY(0) translateX(0); /* End at predefined position */
+  }
+}
+
+@keyframes slideIntoReversePosition {
+  from {
+    transform: translateY(0) translateX(0); /* End at predefined position */
+  }
+  to {
+    transform: translateY(-200%) translateX(0); /* Start off-screen above */
+  }
+}
+
+.fadeIn {
+  animation: fadeIn 2s;
+}
+
+.slideTop {
+    transform: translateY(-200%) translateX(0);
+    animation: slideIntoPosition 0.5s ease-out forwards;
+}
+
+.slideBot {
+    transform: translateY(0) translateX(0);
+    animation: slideIntoReversePosition 0.5s ease-out forwards;
+}
+
+.cs-scrollbar::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
+    height: 5px;
+    background-color: #F5F5F5;
+}
+
+.cs-scrollbar::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: rgba(0,0,0,0.1);
+    border: 1px solid #ccc;
+}
+
+.cs-scrollbar::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: linear-gradient(#fff, #e4e4e4);
+    border: 1px solid #aaa;
+}
+
+.cs-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #fff;
+}
+
+.cs-scrollbar::-webkit-scrollbar-thumb:active {
+    background: linear-gradient(#22ADD4, #1E98BA);
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}

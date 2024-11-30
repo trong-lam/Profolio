@@ -1,0 +1,115 @@
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    .heading{
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1.25em;
+        padding: 8px;
+        color: #260B01;
+        .left {
+            flex: 1 1;
+        }
+        .right {
+            flex: 1 1;
+            display: flex;
+            align-items: center;
+            padding-right: 0.5em;
+            .language {
+                display: flex;
+                align-items: center;
+                > div:first-child {
+                    width: 100px;
+                    text-align: right;
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+                img {
+                    margin-top: 1.5px;
+                    margin-left: 8px;
+                    height: 10px;
+                    width: 10px;
+                    &:hover{
+                        cursor: pointer;
+                    }
+                }
+            }
+            
+        }
+    }
+
+    .header{
+        display: flex;
+        background-color: rgb(var(--color-background));
+        .navbar{
+            width: 100%;
+            height: var(--header-height);
+            display: flex;
+            justify-content: center;
+            font-size: var(--font-size-navbar);
+            padding: 10px;
+            gap: 4vw;
+            .navItem {
+                font-family: helvetica;
+                font-weight: 500;
+                display: flex;
+                align-items: center;
+                &:hover{
+                    text-decoration: underline;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    .banner {
+        flex: 1 1;
+        background-image: url("../../../public/images/demo_banner.png");
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow-y: hidden;
+        .wrapper {
+            background-color: var(--gradient-background);
+            display: flex;
+            align-items: center;
+            max-width: 900px;
+            border-radius: 15px;
+            padding: 2.5rem;
+            margin: 0px 6vw;
+            min-height: 230px;
+            word-wrap: break-word;
+            z-index: 1;
+            .summery {
+                h2 {
+                    font-weight: var(--font-heading-weight);
+                    letter-spacing: calc(var(--font-heading-scale) * .06rem);
+                    color: rgb(var(--color-foreground));
+                    font-size: 1.5rem;
+                    margin-bottom: 1.5rem
+                }
+                p {
+                    color: rgba(var(--color-foreground), 0.75);
+                    font-size: 1.2rem;
+                    line-height: 1.5em;
+                    letter-spacing: 1.5px
+                }
+                button {
+                    margin-top: 15px;
+                }
+            }
+        }
+       
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .right{
+        justify-content: center;
+    }
+}
+

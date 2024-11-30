@@ -1,0 +1,25 @@
+
+.btn {
+    letter-spacing: .05rem;
+    line-height: calc(1 + .2 / var(--font-body-scale));
+    border: 0;
+    cursor: pointer;
+}
+
+.bannerBtn {
+    width: 145px;
+    height: 40px;
+    color: rgb(var(--color-button-text));
+    background-color: rgba(var(--color-button), var(--alpha-button-background));
+    border-radius: var(--buttons-radius-outset);
+}
+
+.demoBtn {
+    border: 1px solid black;
+    padding: 8px 10px;
+    border-radius: var(--buttons-radius-outset);
+    &:hover {
+        background-color: #171717;
+        color: white;
+    }
+}
