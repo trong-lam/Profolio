@@ -8,7 +8,7 @@ import arrowRight from "./svg/arrow-right.svg"
 import myAvatar from "./images/my_avatar.jpg"
 import linkedinLogo from "./svg/linkedin-logo.svg"
 import githubLogo from "./svg/github-logo.svg"
-import mineoptPrj from "./images/mineopt.png"
+import demoProj from "./images/demo_prj.png"
 
 export const DROP_DOWN_ARROW = dropDownArrow
 export const DEMO_AVATAR = demoAvatar
@@ -20,4 +20,4 @@ export const RIGHT_ARROW_BOLD = rightArrowBold
 export const MY_AVATAR = myAvatar
 export const LINKEDIN_LOGO = linkedinLogo
 export const GITHUB_LOGO = githubLogo
-export const MINEOPT_PRJ = mineoptPrj
+export const DEMO_PRJ = demoProj

@@ -1,5 +1,5 @@
 import styles from "./Projects.module.scss"
-import { MINEOPT_PRJ } from "../../assets/images"
+import { DEMO_PRJ } from "../../assets/images"
 import Buttons from "../Buttons/Buttons"
 import { updateDialog } from "../../store/features/multipleDialogSlice"
 import { useAppDispatch, useAppSelector } from "../../store/store"
@@ -8,37 +8,37 @@ const items = [
         id: 1,
         name: "Mine Optimization",
         content:"",
-        preview_img: MINEOPT_PRJ
+        preview_img: DEMO_PRJ
     },
     {
         id: 2,
         name: "Project 2",
         content:"",
-        preview_img: MINEOPT_PRJ
+        preview_img: DEMO_PRJ
     },
     {
         id: 3,
         name: "Project 3",
         content:"",
-        preview_img: MINEOPT_PRJ
+        preview_img: DEMO_PRJ
     },
     {
         id: 4,
         name: "Project 4",
         content:"",
-        preview_img: MINEOPT_PRJ
+        preview_img: DEMO_PRJ
     },
     {
         id: 5,
         name: "Project 5",
         content:"",
-        preview_img: MINEOPT_PRJ
+        preview_img: DEMO_PRJ
     },
     {
         id: 6,
         name: "Project 6",
         content:"",
-        preview_img: MINEOPT_PRJ
+        preview_img: DEMO_PRJ
     },
 ]
 const Projects = ()  => {
