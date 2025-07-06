@@ -1,0 +1,144 @@
+Folder PATH listing
+Volume serial number is D2FC-E5E1
+C:.
+¦   .gitignore
+¦   package-lock.json
+¦   package.json
+¦   postcss.config.js
+¦   README.md
+¦   server.js
+¦   tailwind.config.js
+¦   tree.txt
+¦   tsconfig.json
+¦   
++---.vscode
+¦       settings.json
+¦       tailwind.json
+¦       
++---build
+¦   ¦   asset-manifest.json
+¦   ¦   favicon.ico
+¦   ¦   index.html
+¦   ¦   manifest.json
+¦   ¦   output.css
+¦   ¦   robots.txt
+¦   ¦   
+¦   +---images
+¦   ¦       demo_banner.png
+¦   ¦       
+¦   +---static
+¦       +---css
+¦       ¦       main.1c9eb7f2.css
+¦       ¦       main.1c9eb7f2.css.map
+¦       ¦       
+¦       +---js
+¦       ¦       453.ed3810f9.chunk.js
+¦       ¦       453.ed3810f9.chunk.js.map
+¦       ¦       main.024d24b7.js
+¦       ¦       main.024d24b7.js.LICENSE.txt
+¦       ¦       main.024d24b7.js.map
+¦       ¦       
+¦       +---media
+¦               achievement-icon.17dc5964cdba7930c6e637e3feb2df68.svg
+¦               arrow-right.2b7c53f8ae436d1b7dec535f7d1b4ef6.svg
+¦               certification-icon.25942230ac9957a13c4c8796123cef74.svg
+¦               demo_avatar.812d7ba4383dc80f6562.jpg
+¦               demo_banner.c24a90c345875f9a5433.png
+¦               demo_prj.8a01313c00b148cc3f8a.png
+¦               down-arrow-black.1edfab86f389055c97b80ec14e52f85c.svg
+¦               github-logo.52038f708085aaed24b27fd472bd3725.svg
+¦               graduate-hat.32b2c464b80ca712b5ab8242a6308edf.svg
+¦               linkedin-logo.d44d499e8fb62c74ccf4fee528f1fedb.svg
+¦               my_avatar.039729385b0e86c55e54.jpg
+¦               right-arrow-bold.244ed1402e411fd9ca2be37297b90d06.svg
+¦               
++---public
+¦   ¦   favicon.ico
+¦   ¦   index.html
+¦   ¦   manifest.json
+¦   ¦   output.css
+¦   ¦   robots.txt
+¦   ¦   
+¦   +---images
+¦           demo_banner.png
+¦           
++---src
+    ¦   App.module.scss
+    ¦   App.test.tsx
+    ¦   App.tsx
+    ¦   constants.tsx
+    ¦   index.css
+    ¦   index.tsx
+    ¦   react-app-env.d.ts
+    ¦   reportWebVitals.ts
+    ¦   setupTests.ts
+    ¦   
+    +---assets
+    ¦   ¦   images.tsx
+    ¦   ¦   
+    ¦   +---animations
+    ¦   ¦       animations.module.scss
+    ¦   ¦       
+    ¦   +---images
+    ¦   ¦       demo_avatar.jpg
+    ¦   ¦       demo_prj.png
+    ¦   ¦       dropdowArrow.png
+    ¦   ¦       my_avatar.jpg
+    ¦   ¦       my_avatar_bk.jpg
+    ¦   ¦       
+    ¦   +---svg
+    ¦           achievement-icon.svg
+    ¦           arrow-right.svg
+    ¦           certification-icon.svg
+    ¦           down-arrow-black.svg
+    ¦           github-logo.svg
+    ¦           graduate-hat.svg
+    ¦           linkedin-logo.svg
+    ¦           right-arrow-bold.svg
+    ¦           tick-svg.svg
+    ¦           
+    +---components
+    ¦   +---About
+    ¦   ¦       About.module.scss
+    ¦   ¦       About.tsx
+    ¦   ¦       
+    ¦   +---Buttons
+    ¦   ¦       Buttons.module.scss
+    ¦   ¦       Buttons.tsx
+    ¦   ¦       
+    ¦   +---ContextMenu
+    ¦   ¦       ContextMenu.module.scss
+    ¦   ¦       ContextMenu.tsx
+    ¦   ¦       
+    ¦   +---Dialog
+    ¦   ¦       Dialog.module.scss
+    ¦   ¦       Dialog.tsx
+    ¦   ¦       
+    ¦   +---DropdownMenu
+    ¦   ¦       DropdownMenu.module.scss
+    ¦   ¦       DropdownMenu.tsx
+    ¦   ¦       
+    ¦   +---FixedContact
+    ¦   ¦       FixedContact.module.scss
+    ¦   ¦       FixedContact.tsx
+    ¦   ¦       
+    ¦   +---Introduction
+    ¦   ¦       IntroductionHeader.module.scss
+    ¦   ¦       IntructionHeader.tsx
+    ¦   ¦       
+    ¦   +---MultipleDialog
+    ¦   ¦       MultipleDialog.module.scss
+    ¦   ¦       MultipleDialog.tsx
+    ¦   ¦       
+    ¦   +---Projects
+    ¦           Projects.module.scss
+    ¦           Projects.tsx
+    ¦           
+    +---store
+        ¦   store.ts
+        ¦   
+        +---features
+                configSlice.ts
+                contextSlice.ts
+                multipleDialogSlice.ts
+                
